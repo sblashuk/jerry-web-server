@@ -6,10 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		64F2BB0B2D9D4FF900EC788F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		64F2BB122D9D82EA00EC788F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		64F2BB152D9D849D00EC788F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		64F2BB162D9D8F3A00EC788F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		64F2BB102D9D82A000EC788F /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
 		64F2BB012D9D4DAC00EC788F = {
 			isa = PBXGroup;
 			children = (
+				64F2BB162D9D8F3A00EC788F /* README.md */,
+				64F2BB152D9D849D00EC788F /* Makefile */,
+				64F2BB122D9D82EA00EC788F /* .gitignore */,
+				64F2BB0B2D9D4FF900EC788F /* Package.swift */,
+				64F2BB102D9D82A000EC788F /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
